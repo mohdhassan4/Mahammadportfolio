@@ -483,7 +483,7 @@ const Home = () => {
                 <img src={connect} alt="" />
                 <div class="overlay">
                   <div class="details">
-                    <h3>Company connect</h3>
+                    <h3>Tourism App</h3>
                     <div class="btn-group">
                       <a href="">
                         <i className="fas fa-plus"></i>
