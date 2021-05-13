@@ -292,7 +292,7 @@ const Home = () => {
             >
               <img
                 src={profile}
-                style={{ width: "450px", height: "450px"}}
+                style={{ width: "100%", height: "450px", object-fit: "contain"}}
               />
             </div>
           </div>
