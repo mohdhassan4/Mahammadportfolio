@@ -3,11 +3,11 @@ import "./Home.css";
 import "./index";
 import gsap from "gsap";
 import AOS from "aos";
-import profile from "./images/hassu.jpg";
+import profile from "./images/Hashu.jpg";
 import profile1 from "./images/mahi1.PNG";
 import work from "./images/work1.jpg";
 import amazon from "./images/amazon.PNG"
-import connect from "./images/tourism.png"
+import connect from "./images/Netflix.png"
 import coderrange from "./images/coderrange.PNG"
 import emailjs from "emailjs-com";
 import { useAlert } from "react-alert";
@@ -185,11 +185,11 @@ const Home = () => {
                     </a>
                   </li>
 
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <a href="#blog" className="nav-link scroll-link">
                       Blog
                     </a>
-                  </li>
+                  </li> */}
 
                   <li className="nav-item">
                     <a href="#contact" className="nav-link scroll-link">
@@ -292,7 +292,8 @@ const Home = () => {
             >
               <img
                 src={profile}
-                style={{ width: "100%", height: "450px", object-fit: "contain"}}
+                style={{ width: "350px", height: "380px", ObjectFit: "contain",
+                 marginLeft: "130px", marginTop: "-50px", borderRadius: "20px 20px 20px 20px" }}
               />
             </div>
           </div>
@@ -333,7 +334,7 @@ const Home = () => {
                           <span>
                             <i className="fas fa-paint-brush"></i>
                           </span>
-                          <h3>HTML</h3>
+                          <h3>HTML & CSS</h3>
                           <p>
                             Slicing HTML with proper way is a very
                             important thing & I do it most efficient way.
@@ -391,9 +392,9 @@ const Home = () => {
                           <span>
                           <i className="far fa-heart"></i>
                           </span>
-                          <h3>Django</h3>
+                          <h3>Redux</h3>
                           <p>
-                            Django is a one of the top framework at this
+                            Redux is a one of the top Javascript library at this
                             moment & I know it very well.
                           </p>
                         </div>
@@ -451,7 +452,7 @@ const Home = () => {
                       <a href="">
                         <i className="fas fa-plus"></i>
                       </a>
-                      <a href="https://coderrange.herokuapp.com/">
+                      <a href="https://coderrange.com/">
                         <i className="fas fa-link"></i>
                       </a>
                     </div>
@@ -483,12 +484,12 @@ const Home = () => {
                 <img src={connect} alt="" />
                 <div class="overlay">
                   <div class="details">
-                    <h3>Tourism App</h3>
+                    <h3>Netflix Clone</h3>
                     <div class="btn-group">
                       <a href="">
                         <i className="fas fa-plus"></i>
                       </a>
-                      <a href="https://touristhassan.herokuapp.com/">
+                      <a href="https://movie-app-8f3c5.web.app/">
                         <i className="fas fa-link"></i>
                       </a>
                     </div>
@@ -600,8 +601,8 @@ const Home = () => {
                   <span>
                     <i class="fas fa-map-marked-alt"></i>
                   </span>
-                  <h4>Location</h4>
-                  <small>Andhra Pradesh,India</small>
+                  <h4>Mobile</h4>
+                  <small>+91 9501265123</small>
                 </div>
                 <div>
                   <span>
